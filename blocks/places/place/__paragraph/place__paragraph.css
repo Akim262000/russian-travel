@@ -2,5 +2,7 @@
   grid-area: paragraph;
   margin: 0;
   width: 484px;
-  height: 145px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
 }

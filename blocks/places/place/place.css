@@ -3,10 +3,12 @@ width: 984px;
 height: 660px;
 margin-left: 148px;
 display: grid;
+align-content: flex-end;
 grid-template-columns: repeat(2, 492px);
 grid-template-rows: repeat(3, 1fr);
 grid-template-areas: 
 "title website"
 "image paragraph"
 "image paragraph";
+color: white;
 }
