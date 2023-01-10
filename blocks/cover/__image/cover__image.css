@@ -1,0 +1,13 @@
+.cover__image {
+  width: 1184px;
+  height: 740px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .8;
+}
+
+.cover__image:hover {
+  color: #2A2C2F;
+  opacity: .3;
+}

@@ -1,5 +1,6 @@
-.place__paragraph {
+.place__website_url-heading {
   grid-area: paragraph;
   width: 456px;
   height: 12px;
+  color: #AAAAAA;
 }
