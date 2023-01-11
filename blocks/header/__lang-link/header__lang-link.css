@@ -2,9 +2,10 @@
   width: 30px;
   height: 28px;
   margin: 0;
-  position: relative;
-  top: 18px;
+  position: absolute;
   right: 0;
+  top: 18px;
   text-decoration: none;
   color: inherit;
+  color: white;
 }

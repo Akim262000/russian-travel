@@ -1,5 +1,10 @@
 body {
-  background-color: #adadad;
+  background-color: #2A2C2F;
   margin: 0;
   width: 1280px;
+  font-family: 'Inter';
+}
+
+p {
+  margin: 0;
 }

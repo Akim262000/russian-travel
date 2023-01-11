@@ -1,6 +1,9 @@
 .place__website_url-heading {
   grid-area: paragraph;
-  width: 456px;
-  height: 12px;
+  margin: 0;
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
   color: #AAAAAA;
 }

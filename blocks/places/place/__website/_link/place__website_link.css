@@ -1,8 +1,5 @@
 .place__website_link {
   grid-area: paragraph;
-  width: 456px;
-  height: 22px;
-  position: absolute;
   color: inherit;
 }
 
