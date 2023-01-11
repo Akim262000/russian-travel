@@ -2,10 +2,14 @@
   width: 30px;
   height: 28px;
   margin: 0;
-  position: absolute;
-  right: 0;
-  top: 18px;
-  text-decoration: none;
+  margin-left: 18px;
   color: inherit;
   color: white;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.header__lang-link:last-child {
+  text-decoration: none;
 }
