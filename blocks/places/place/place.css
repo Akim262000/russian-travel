@@ -17,3 +17,18 @@ margin-bottom: 80px;
 .place:last-child {
   margin-bottom: 0;
 }
+
+@media (max-width: 320px) {
+  .place {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: 
+    "title"
+    "wibsite"
+    "image"
+    "paragraph"
+    "paragraph";
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

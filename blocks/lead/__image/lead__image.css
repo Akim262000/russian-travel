@@ -1,9 +1,16 @@
 .lead__image {
-  width: 984px;
-  height: 615px;
+  width: auto;
+  height: auto;
   margin-top: 64px;
   margin-left: 148px;
   margin-right: 148px;
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 320px) {
+  .lead__image {
+    width: 320px;
+    margin: 0;
+  }
 }

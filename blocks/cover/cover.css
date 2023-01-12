@@ -6,3 +6,9 @@
   position: relative;
   color: white;
 }
+
+@media (max-width: 320px) {
+  .cover {
+    width: 100%;
+  }
+}
