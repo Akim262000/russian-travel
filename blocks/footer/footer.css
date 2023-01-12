@@ -1,6 +1,10 @@
 .footer {
   margin: 0;
-  margin-top: 92px;
   color: white;
+  display: flex;
   position: relative;
+  bottom: 24px;
+  left: 48px;
+  align-items: center;
+  justify-content: space-between;
 }

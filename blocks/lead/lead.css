@@ -2,4 +2,7 @@
   position: relative;
   color: white;
   margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
