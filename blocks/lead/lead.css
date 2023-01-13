@@ -1,8 +1,9 @@
 .lead {
-  position: relative;
   color: white;
-  margin-top: 56px;
   display: flex;
+  width: 100%;
+  height: auto;
+  margin-top: 92px;
   flex-direction: column;
   box-sizing: border-box;
 }

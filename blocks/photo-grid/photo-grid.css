@@ -4,7 +4,6 @@
   grid-template-rows: repeat(3, auto);
   gap: 16px;
   margin-top: 92px;
-  width: 100%;
   justify-content: center;
 }
 
