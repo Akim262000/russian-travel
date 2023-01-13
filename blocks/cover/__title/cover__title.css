@@ -13,3 +13,27 @@
   text-decoration: none;
   color: inherit;
 }
+
+@media (max-width: 1024px) {
+  .cover__title {
+    top: 195px;
+    left: 232px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__title {
+    top: 115px;
+    left: 104px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    width: 288px;
+    top: 33px;
+    left: 16px;
+  }
+}
