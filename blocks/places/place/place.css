@@ -2,7 +2,7 @@
 margin: 0;
 display: grid;
 align-content: flex-end;
-grid-template-columns: repeat(2, 492px);
+grid-template-columns: repeat(2, 484px);
 grid-template-rows: repeat(3, auto);
 grid-template-areas: 
 "title website"
@@ -11,11 +11,26 @@ grid-template-areas:
 color: white;
 align-items:flex-end;
 row-gap: 48px;
+column-gap: 40px;
 margin-bottom: 80px;
 }
 
 .place:last-child {
   margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+  .place {
+    column-gap: 32px;
+    grid-template-columns: repeat(2, 456px);
+  }
+}
+
+@media (max-width: 768px) {
+  .place {
+    column-gap: 28px;
+    grid-template-columns: 340px 400px;
+  }
 }
 
 @media (max-width: 320px) {

@@ -1,14 +1,28 @@
 .cover {
   margin: 0;
   width: 1184px;
-  height: 740px;
-  margin: 92px auto;
+  margin: 92px 48px;
   position: relative;
   color: white;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 1024px) {
   .cover {
-    width: 100%;
+    margin: 0;
+    margin: 92px 0;
   }
 }
+
+@media (max-width: 768px) {
+  .cover {
+    margin: 0;
+    margin: 92px 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover {
+    margin: 0;
+  }
+}
+
