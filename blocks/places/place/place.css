@@ -2,17 +2,18 @@
 margin: 0;
 display: grid;
 align-content: flex-end;
-grid-template-columns: repeat(2, 484px);
+grid-template-columns: repeat(2, 460px);
 grid-template-rows: repeat(3, auto);
 grid-template-areas: 
 "title website"
-"image paragraph"
 "image paragraph";
 color: white;
 align-items:flex-end;
 row-gap: 48px;
-column-gap: 40px;
+column-gap: 14px;
+margin: 0 auto;
 margin-bottom: 80px;
+max-width: 100%;
 }
 
 .place:last-child {
@@ -22,20 +23,20 @@ margin-bottom: 80px;
 @media (max-width: 1024px) {
   .place {
     column-gap: 32px;
-    grid-template-columns: repeat(2, 456px);
+    grid-template-columns: repeat(2, 440px);
   }
 }
 
 @media (max-width: 768px) {
   .place {
     column-gap: 28px;
-    grid-template-columns: 340px 400px;
+    grid-template-columns: repeat(2, 340px);
   }
 }
 
 @media (max-width: 320px) {
   .place {
-    grid-template-columns: repeat(1, auto);
+    grid-template-columns: repeat(1, 320px);
     grid-template-rows: repeat(5, auto);
     grid-template-areas: 
     "title"

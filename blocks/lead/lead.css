@@ -1,9 +1,27 @@
 .lead {
   color: white;
-  display: flex;
+  margin: 0 auto;
+  max-width: 984px;
   width: 100%;
-  height: auto;
-  margin-top: 92px;
-  flex-direction: column;
-  box-sizing: border-box;
+}
+
+@media (max-width: 1024px){
+  .lead{
+    margin: 0 auto;
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px){
+  .lead{
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 320px){
+  .lead{
+    max-width: 320px;
+    margin: 0 auto;
+  }
 }
