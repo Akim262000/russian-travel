@@ -8,7 +8,7 @@
 
 @media (max-width: 1024px) {
   .place__title {
-    width: 456px;
+    max-width: 456px;
   }
 }
 

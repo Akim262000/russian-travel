@@ -1,7 +1,6 @@
 .place {
 margin: 0;
 display: grid;
-align-content: flex-end;
 grid-template-columns: repeat(2, 460px);
 grid-template-rows: repeat(3, auto);
 grid-template-areas: 
@@ -11,9 +10,7 @@ color: white;
 align-items:flex-end;
 row-gap: 48px;
 column-gap: 14px;
-margin: 0 auto;
 margin-bottom: 80px;
-max-width: 100%;
 }
 
 .place:last-child {
@@ -44,7 +41,5 @@ max-width: 100%;
     "image"
     "paragraph"
     "paragraph";
-    margin-left: 0;
-    margin-right: 0;
   }
 }
