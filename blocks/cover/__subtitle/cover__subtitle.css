@@ -6,23 +6,22 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  position: absolute;
-  top: 429px;
-  left: 412px;
+  position: relative;
   z-index: 1;
+  margin: 33px auto ; 
 }
 
 @media (max-width: 1024px) {
   .cover__subtitle {
-    top: 379px;
-    left: 332px;
+    margin: 0;
+    margin-top: 32px;
+    margin-left: 332px;
   }
 }
 
 @media (max-width: 768px) {
   .cover__subtitle {
-    top: 299px;
-    left: 204px;
+
   }
 }
 
@@ -30,8 +29,6 @@
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    width: 288px;
-    top: 119px;
-    left: 16px;
+   max-width: 288px;
   }
 }

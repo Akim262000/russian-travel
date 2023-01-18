@@ -1,16 +1,25 @@
 .place__paragraph {
   grid-area: paragraph;
-  width: 484px;
-  margin: 0;
+  max-width: 520px;
   font-weight: 400;
+  margin: 0;
+  padding: 0;
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 22px;
+  align-self: start;
 }
 
 @media (max-width: 1024px) {
   .place__paragraph {
-    width: 456px;
+    max-width: 520px;
+    margin-bottom: 18px;
+  }
+}
+
+@media (max-width: 906px) {
+  .place__paragraph {
+    max-width: 280px;
   }
 }
 

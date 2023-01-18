@@ -7,20 +7,30 @@
 
 @media (max-width: 1024px) {
   .places {
-    max-width: 928px;
     width: 100%;
+    margin: 0;
+    margin-top: 92px;
+    max-width: 959px;
+    margin-left: 50px;
   }
 }
 
 @media (max-width: 768px) {
   .places {
-  max-width: 720px;
-  width: 100%;
+    max-width: 720px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 665px) {
+  .places {
+    max-width: 500px;
+    width: 100%;
   }
 }
 
 @media (max-width: 320px) {
   .places {
-  margin: 92px 16px;
+    margin: 92px 16px;
   }
 }

@@ -1,27 +1,50 @@
 .cover {
-  margin: 0;
-  width: 1184px;
-  margin: 92px 48px;
-  position: relative;
+  margin: 88px auto 0;
   color: white;
+  background-image: url("../../../image/__background.png");
+  background-size: contain;
+  max-height: 760px;
+  height: 100vh;
+  max-width: 1184px;
+  width: 100%;
+  background-repeat: no-repeat;
+  display: flex; 
+  position: relative;
+  flex-direction: column; 
+}
+.cover:before {
+  content: "";
+  position: absolute;
+  background: rgba(42, 44, 47,.3);
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+}
+
+.cover:hover {
+  color: rgba(42, 44, 47, .8);
 }
 
 @media (max-width: 1024px) {
   .cover {
     margin: 0;
-    margin: 92px 0;
+    max-width: 1024px;
+    max-height: 640px;
+    width: 100%;
+    background-size: contain;
+    margin-top: 94px;
   }
 }
 
 @media (max-width: 768px) {
   .cover {
-    margin: 0;
-    margin: 92px 0;
+    max-width: 768px;
   }
 }
 
 @media (max-width: 320px) {
   .cover {
-    margin: 0;
+    max-width: 320px;
   }
 }
