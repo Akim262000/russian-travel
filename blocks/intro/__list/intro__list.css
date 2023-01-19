@@ -8,3 +8,15 @@
   line-height: 18px;
   padding-left: 3px;
 }
+
+@media (max-width: 768px) {
+  .intro__list {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro__list {
+    padding-top: 4px;
+  }
+}

@@ -18,12 +18,17 @@
     margin: 0; 
     margin-top: 195px;
     padding-left: 242px;
+    padding: 0 auto;
   }
 }
 
 @media (max-width: 768px) {
   .cover__title {
-
+    margin: 0;
+    padding: 0;
+    margin: 118px auto 0;
+    max-width: 550px;
+    width: 100%;
   }
 }
 

@@ -19,7 +19,7 @@
   .places {
     max-width: 720px;
     width: 100%;
-  }
+    margin-left: 24px; }
 }
 
 @media (max-width: 665px) {
@@ -31,6 +31,6 @@
 
 @media (max-width: 320px) {
   .places {
-    margin: 92px 16px;
+    margin: 64px 16px;
   }
 }

@@ -18,6 +18,10 @@
 
 @media (max-width: 768px) {
   .footer {
+    margin: 0;
+    margin-left: 24px;
+    margin-top: 92px;
+    margin-bottom: 22px;
   }
 }
 

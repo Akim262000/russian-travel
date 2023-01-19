@@ -15,9 +15,16 @@
   text-decoration: none;
 }
 
-@media (max-width: 1024px){
+
+@media (max-width: 968px){
   .header__lang-link {
-    left: 19px;
+    left: 4px;
+  }
+}
+
+@media (max-width: 678px){
+  .header__lang-link {
+    margin-left: 18px;
   }
 }
 
@@ -28,5 +35,6 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;
+    top:4px
   }
 }
