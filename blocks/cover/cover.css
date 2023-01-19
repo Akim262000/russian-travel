@@ -49,5 +49,7 @@
 @media (max-width: 320px) {
   .cover {
     max-width: 320px;
+    height: 200px;
+    margin-bottom: 0;
   }
 }
