@@ -9,7 +9,7 @@
   justify-content: center;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
   .photo-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -34,7 +34,7 @@
 @media (max-width: 320px) {
   .photo-grid {
     display: grid;
-    grid-template-columns:  288px;
+    grid-template-columns: 288px;
     grid-template-rows: repeat(12, auto);
     gap: 12px;
     margin: 0;

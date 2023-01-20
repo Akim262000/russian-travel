@@ -3,7 +3,7 @@
   width: 100%;
 }
 
-@media  (max-width: 1024px) {
+@media (max-width: 1024px) {
   .photo-grid__item {
     max-width: 300px;
   }

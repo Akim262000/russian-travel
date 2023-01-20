@@ -3,21 +3,21 @@
   margin-left: 16px;
 }
 
-@media (max-width: 1024px){
-  .lead{
+@media (max-width: 1024px) {
+  .lead {
     margin-top: 46px;
   }
 }
 
-@media (max-width: 768px){
-  .lead{
+@media (max-width: 768px) {
+  .lead {
     margin-top: 48px;
     margin-left: 0;
   }
 }
 
-@media (max-width: 320px){
-  .lead{
+@media (max-width: 320px) {
+  .lead {
     max-width: 320px;
     margin: 48px auto 0;
   }

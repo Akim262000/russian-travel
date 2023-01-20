@@ -6,7 +6,7 @@
 }
 
 @media (max-width: 768px) {
-  .intro__title{
+  .intro__title {
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
@@ -14,7 +14,7 @@
 }
 
 @media (max-width: 762px) {
-  .intro__title{
+  .intro__title {
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
@@ -23,16 +23,15 @@
 }
 
 @media (max-width: 541px) {
-  .intro__title{
+  .intro__title {
     font-size: 44px;
     line-height: 42px;
     max-width: 330px;
   }
 }
 
-
 @media (max-width: 320px) {
-  .intro__title{
+  .intro__title {
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;

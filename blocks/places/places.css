@@ -45,14 +45,16 @@
   .places {
     max-width: 720px;
     width: 100%;
-    margin-left: 24px; }
+    margin-left: 24px;
+  }
 }
 
 @media (max-width: 762px) {
   .places {
     max-width: 600px;
     width: 100%;
-    margin-left: 24px; }
+    margin-left: 24px;
+  }
 }
 
 @media (max-width: 665px) {

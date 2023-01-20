@@ -7,7 +7,7 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  margin: 245px auto 0px; 
+  margin: 245px auto 0px;
   text-decoration: none;
   color: inherit;
 }
@@ -21,7 +21,7 @@
 
 @media (max-width: 1023px) {
   .cover__title {
-    margin:170px auto 20px;
+    margin: 170px auto 20px;
   }
 }
 
@@ -67,6 +67,5 @@
     font-size: 32px;
     line-height: 35px;
     max-width: 288px;
-
   }
 }
