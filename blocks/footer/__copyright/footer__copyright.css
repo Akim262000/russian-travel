@@ -28,3 +28,12 @@
     margin-bottom: 30px;
   }
 }
+
+@media (max-width: 320px) {
+  .footer__copyright{
+    margin: 0;
+    margin-top: 15px;
+    padding-left: 70px;
+    margin-bottom: 30px;
+  }
+}

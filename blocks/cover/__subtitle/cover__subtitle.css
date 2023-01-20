@@ -7,7 +7,6 @@
   font-size: 18px;
   line-height: 22px;
   position: relative;
-  z-index: 1;
   margin: 33px auto ; 
 }
 
@@ -19,11 +18,33 @@
   }
 }
 
+@media (max-width: 1023px) {
+  .cover__subtitle {
+    margin: 0 auto ;
+  }
+}
+
 @media (max-width: 768px) {
   .cover__subtitle {
-    margin: 0;
-    margin-top: 32px;
+    margin-top: 30px;
     margin-left: 204px;
+  }
+}
+
+@media (max-width: 766px) {
+  .cover__subtitle {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 665px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 10px auto;
+    max-width: 240px;
   }
 }
 
@@ -32,7 +53,8 @@
     font-size: 14px;
     line-height: 16px;
     margin-left: 40px;
-   width: 240px;
-   margin-top: 16px;
+    width: 240px;
+    margin-top: 16px;
+    margin-left: 44px;
   }
 }

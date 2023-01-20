@@ -1,8 +1,9 @@
 .header__lang-link {
   margin: 0;
   position: relative;
-  top: 8px;
-  left: 4px;
+  top: 7px;
+  left: 18px;
+  text-decoration-line: underline;
   margin-left: 17px;
   color: inherit;
   color: white;
@@ -22,9 +23,25 @@
   }
 }
 
+@media (max-width: 768px){
+  .header__lang-link {
+    left: 20px;
+  }
+}
+
 @media (max-width: 678px){
   .header__lang-link {
     margin-left: 18px;
+  }
+}
+
+@media (max-width: 435px) {
+  .header__lang-link {
+    width: 22px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
   }
 }
 

@@ -11,6 +11,12 @@
   }
 }
 
+@media (max-width: 435px){
+  .header {
+    margin: 16px 28px 0;
+  }
+}
+
 @media (max-width: 320px){
   .header {
     margin: 16px 16px 0;
