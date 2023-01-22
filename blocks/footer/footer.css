@@ -18,29 +18,21 @@
 
 @media (max-width: 768px) {
   .footer {
-    margin: 0;
-    margin-left: 24px;
-    margin-top: 88px;
-    margin-bottom: 22px;
+    margin: 88px 0 22px 24px;
   }
 }
 
 @media (max-width: 760px) {
   .footer {
-    margin: 0;
     margin-top: 64px;
     margin-left: 50px;
-    width: 50px;
     flex-direction: column;
   }
 }
 
 @media (max-width: 320px) {
   .footer {
-    margin: 0;
     margin-top: 68px;
     margin-left: 46px;
-    width: 50px;
-    flex-direction: column;
   }
 }
