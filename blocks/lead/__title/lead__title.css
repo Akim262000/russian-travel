@@ -16,9 +16,8 @@
 
 @media (max-width: 760px) {
   .lead__title {
-    width: 288px;
+    max-width: 288px;
     margin: 0 auto;
-    font-weight: 900;
     font-size: 48px;
     line-height: 64px;
     max-width: 500px;
@@ -27,8 +26,6 @@
 
 @media (max-width: 450px) {
   .lead__title {
-    width: 288px;
-    font-weight: 900;
     font-size: 40px;
     line-height: 44px;
   }
@@ -36,10 +33,6 @@
 
 @media (max-width: 320px) {
   .lead__title {
-    width: 288px;
     margin-left: 16px;
-    font-weight: 900;
-    font-size: 40px;
-    line-height: 44px;
   }
 }
