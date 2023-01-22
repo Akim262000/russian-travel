@@ -3,7 +3,7 @@
 }
 
 .place__link:hover {
-  opacity: .8; 
-  transition-timing-function: linear; 
-  transition-duration: 2s; 
+  opacity: .8;
+  transition-timing-function: linear;
+  transition-duration: 2s;
 }
