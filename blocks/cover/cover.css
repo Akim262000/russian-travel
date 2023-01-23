@@ -5,9 +5,9 @@
   color: white;
   background-image: url("../../image/__background.png");
   background-size: contain;
+  max-height: 760px;
   height: 100vh;
   background-repeat: no-repeat;
-  display: flex;
   position: relative;
   flex-direction: column;
 }
@@ -29,6 +29,7 @@
 @media (max-width: 1024px) {
   .cover {
     margin: 94px 0 0;
+    max-height: 640px;
   }
 }
 
@@ -36,7 +37,8 @@
   .cover {
     max-width: 768px;
     width: 100%;
-    margin-top: 36px;
+    max-height: 480px;
+    margin-top: 34px;
   }
 }
 

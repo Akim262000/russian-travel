@@ -6,24 +6,19 @@
   font-size: 18px;
   line-height: 22px;
   position: relative;
+  top: 246px;
   margin: 33px auto;
 }
 
 @media (max-width: 1024px) {
   .cover__subtitle {
-    margin: 0;
-    margin-top: 32px;
-  }
-}
-
-@media (max-width: 1023px) {
-  .cover__subtitle {
-    margin: 0 auto;
+    top: 196px
   }
 }
 
 @media (max-width: 768px) {
   .cover__subtitle {
+    top: 120px;
     margin-top: 30px;
     margin-left: 204px;
   }

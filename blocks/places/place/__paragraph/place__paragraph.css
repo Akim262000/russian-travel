@@ -1,31 +1,35 @@
 .place__paragraph {
   grid-area: paragraph;
   max-width: 520px;
+  width: 100%;
   font-weight: 400;
-  margin: 0;
-  padding: 0;
+  width: 100%;
   font-size: 18px;
   line-height: 30px;
-  margin-bottom: 22px;
+  margin:0 0 22px;
   align-self: start;
+}
+
+.place__paragraph:nth-child(2){
+  margin-bottom: 0;
 }
 
 @media (max-width: 1024px) {
   .place__paragraph {
+    max-width: 440px;
     margin-bottom: 18px;
   }
 }
 
-@media (max-width: 984px) {
+/* @media (max-width: 984px) {
   .place__paragraph {
     max-width: 370px;
   }
-}
+} */
 
 @media (max-width: 768px) {
   .place__paragraph {
     max-width: 350px;
-    font-weight: 400;
     font-size: 16px;
     line-height: 163%;
     margin-bottom: 24px;
@@ -34,11 +38,8 @@
 
 @media (max-width: 320px) {
   .place__paragraph {
-    margin: 0;
-    margin-top: 16px;
+    margin: 16px 0 0;
     max-width: 288px;
-    width: 100%;
-    font-weight: 400;
     font-size: 16px;
     line-height: 26px;
   }
