@@ -50,12 +50,11 @@
 @media (max-width: 435px) {
   .places {
     max-width: 320px;
-
   }
 }
 
 @media (max-width: 320px) {
   .places {
-    margin: 64px 16px;
+    margin: 64px 0 42px;
   }
 }

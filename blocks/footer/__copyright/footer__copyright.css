@@ -13,15 +13,15 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .footer__copyright {
-    margin-right: 6px;
+    margin-right: 10px;
   }
 }
 
 @media (max-width: 320px) {
   .footer__copyright {
-    margin-top: 15px;
+    margin-top: 32px;
     margin-bottom: 30px;
   }
 }

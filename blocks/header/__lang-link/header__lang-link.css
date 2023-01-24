@@ -1,13 +1,12 @@
 .header__lang-link {
   position: relative;
-  text-decoration-line: underline;
   margin-left: 14px;
   color: inherit;
   color: white;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  
+  text-decoration: none;
 }
 
 .header__lang-link:hover {
@@ -16,30 +15,15 @@
   transition-duration: 2s;
 }
 
-.header__lang-link:last-child {
-  text-decoration: none;
-}
-
 @media (max-width: 678px) {
   .header__lang-link {
-    margin-left: 18px;
+    margin-left: 16px;
   }
 }
 
 @media (max-width: 435px) {
   .header__lang-link {
-    width: 22px;
-    height: 20px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
-  }
-}
-
-@media (max-width: 320px) {
-  .header__lang-link {
-    width: 22px;
-    height: 20px;
+    margin-left: 13px;
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;

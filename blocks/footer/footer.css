@@ -18,7 +18,7 @@
 
 @media (max-width: 768px) {
   .footer {
-    margin: 76px 0 22px 24px;
+    margin: 74px 0 22px 24px;
   }
 }
 
@@ -33,6 +33,6 @@
 
 @media (max-width: 320px) {
   .footer {
-    margin-top: 68px;
+    margin-top: 38px;
   }
 }
