@@ -1,11 +1,9 @@
 .footer__copyright {
   max-width: 186px;
   width: 100%;
-  margin: 0 46px 0 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  margin-right: 30px;
 }
 
 @media (max-width: 768px) {

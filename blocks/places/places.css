@@ -1,27 +1,18 @@
 .places {
-  margin-top: 92px;
-  margin-left: 148px;
+  margin: 92px auto 0;
   max-width: 984px;
   width: 100%;
 }
 
 @media (max-width: 1150px) {
   .places {
-    margin-left: 70px;
     max-width: 850px;
   }
 }
 
 @media (max-width: 1024px) {
   .places {
-    margin-left: 50px;
     max-width: 928px;
-  }
-}
-
-@media (max-width: 996px) {
-  .places {
-    max-width: 800px;
   }
 }
 
@@ -32,9 +23,9 @@
   }
 }
 
-@media (max-width: 762px) {
+@media (max-width: 768px) {
   .places {
-    max-width: 500px;
+    max-width: 720px;
   }
 }
 

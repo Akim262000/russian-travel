@@ -15,11 +15,6 @@
   transition-duration: 2s;
 }
 
-@media (max-width: 678px) {
-  .header__lang-link {
-    margin-left: 16px;
-  }
-}
 
 @media (max-width: 435px) {
   .header__lang-link {
