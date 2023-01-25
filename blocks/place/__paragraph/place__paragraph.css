@@ -6,11 +6,11 @@
   width: 100%;
   font-size: 18px;
   line-height: 30px;
-  margin:0 0 22px;
+  margin: 0 0 22px;
   align-self: start;
 }
 
-.place__paragraph:nth-child(2){
+.place__paragraph:nth-child(2) {
   margin-bottom: 0;
 }
 
@@ -20,12 +20,6 @@
     margin-bottom: 18px;
   }
 }
-
-/* @media (max-width: 984px) {
-  .place__paragraph {
-    max-width: 370px;
-  }
-} */
 
 @media (max-width: 768px) {
   .place__paragraph {

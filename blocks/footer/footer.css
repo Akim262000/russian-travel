@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: space-between;
   margin-left: 47px;
-  margin-top: 56px;
+  margin-top: 76px;
   margin-bottom: 24px;
 }
 
@@ -33,6 +33,6 @@
 
 @media (max-width: 320px) {
   .footer {
-    margin-top: 38px;
+    margin-top: 48px;
   }
 }

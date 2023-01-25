@@ -5,12 +5,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-}
-
-@media (max-width: 1024px) {
-  .footer__copyright {
-    margin-right: 30px;
-  }
+  margin-right: 30px;
 }
 
 @media (max-width: 768px) {
