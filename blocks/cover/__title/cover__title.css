@@ -17,16 +17,6 @@
   transition-duration: 2s;
 }
 
-@media (max-width: 1024px) {
-  .cover__title {
-  }
-}
-
-@media (max-width: 768px) {
-  .cover__title {
-  }
-}
-
 @media (max-width: 665px) {
   .cover__title {
     max-width: 350px;
@@ -45,6 +35,6 @@
 @media (max-width: 320px) {
   .cover__title {
     max-width: 288px;
-    margin-bottom: 0;
+    margin-bottom: 16px;
   }
 }

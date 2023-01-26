@@ -55,17 +55,17 @@
   .place {
     column-gap: 20px;
     row-gap: 44px;
-    grid-template-columns: repeat(2, 350px);
+    grid-template-columns: fit-content(350px) fit-content(350px);
     grid-template-rows:max-content;
     margin-bottom: 70px;
   }
 }
 
-@media (max-width: 762px) {
+/* @media (max-width: 762px) {
   .place {
     grid-template-columns: 300px 250px;
   }
-}
+} */
 
 @media (max-width: 665px) {
   .place {

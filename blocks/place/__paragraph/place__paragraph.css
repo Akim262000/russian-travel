@@ -9,7 +9,7 @@
   align-self: start;
 }
 
-.place__paragraph:nth-child(2) {
+.place__paragraph:last-child  {
   margin-bottom: 0;
 }
 
