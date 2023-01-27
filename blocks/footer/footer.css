@@ -17,20 +17,10 @@
 @media (max-width: 768px) {
   .footer {
     max-width: 720px;
-    margin-top: 76px;
     margin-left: 24px;
     margin-right: 24px;
   }
 }
-
-/* @media (max-width: 760px) {
-  .footer {
-    margin: 0;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 16px;
-  }
-} */
 
 @media (max-width: 520px) {
   .footer {
@@ -45,8 +35,5 @@
 @media (max-width: 320px) {
   .footer {
     margin-top: 64px;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 16px;
   }
 }

@@ -4,12 +4,6 @@
   width: 100%;
 }
 
-@media (max-width: 1150px) {
-  .places {
-
-  }
-}
-
 @media (max-width: 1024px) {
   .places {
     max-width: 928px;
@@ -19,12 +13,6 @@
 @media (max-width: 890px) {
   .places {
     max-width: 720px;
-  }
-}
-
-@media (max-width: 768px) {
-  .places {
-
   }
 }
 

@@ -16,14 +16,6 @@
   }
 }
 
-/* @media (max-width: 762px) {
-  .intro__text {
-    margin-left: 0;
-    margin-right: 0;
-    max-width: 520px;
-  }
-} */
-
 @media (max-width: 541px) {
   .intro__text {
     max-width: 380px;
