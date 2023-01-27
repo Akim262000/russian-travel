@@ -24,6 +24,12 @@
   }
 }
 
+@media (max-width: 954px) {
+  .place {
+    grid-template-columns: 380px 350px;
+  }
+}
+
 @media (max-width: 890px) {
   .place {
     grid-template-columns: 300px 300px;

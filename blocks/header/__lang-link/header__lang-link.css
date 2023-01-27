@@ -14,7 +14,6 @@
   transition-duration: 2s;
 }
 
-
 @media (max-width: 435px) {
   .header__lang-link {
     font-size: 18px;
