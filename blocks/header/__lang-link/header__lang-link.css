@@ -1,6 +1,5 @@
 .header__lang-link {
   position: relative;
-  margin-left: 14px;
   color: inherit;
   color: white;
   font-weight: 400;
@@ -9,9 +8,9 @@
   text-decoration: none;
 }
 
-.header__lang-link:first-child {
+/* .header__lang-link:first-child {
   margin-left: 0;
-}
+} */
 
 .header__lang-link:hover {
   opacity: 0.8;
@@ -22,7 +21,6 @@
 
 @media (max-width: 435px) {
   .header__lang-link {
-    margin-left: 13px;
     font-size: 18px;
     line-height: 20px;
   }
