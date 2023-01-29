@@ -30,12 +30,13 @@
 
 @media (max-width: 435px) {
   .places {
-    max-width: 320px;
+    max-width: 290px;
   }
 }
 
 @media (max-width: 320px) {
   .places {
+    max-width: 320px;
     margin: 64px 0 66px;
   }
 }

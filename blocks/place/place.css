@@ -25,13 +25,13 @@
 
 @media (max-width: 954px) {
   .place {
-    grid-template-columns: 380px 350px;
+    grid-template-columns: 380px 448px;
   }
 }
 
 @media (max-width: 890px) {
   .place {
-    grid-template-columns: 300px 300px;
+    grid-template-columns: 300px 388px;
   }
 }
 
@@ -46,8 +46,7 @@
 
 @media (max-width: 665px) {
   .place {
-    margin-left: 16px;
-    grid-template-columns: 400px;
+    grid-template-columns: 415px;
     grid-template-areas:
       "title"
       "website"
@@ -58,14 +57,13 @@
 
 @media (max-width: 435px) {
   .place {
-    grid-template-columns: 270px;
+    grid-template-columns: 290px;
     row-gap: 40px;
   }
 }
 
 @media (max-width: 320px) {
   .place {
-    margin-left: 0;
     grid-template-columns: 320px;
     row-gap: 29px;
     margin-bottom: 50px;
